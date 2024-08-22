@@ -35,6 +35,11 @@ summary(mylogit)
 # Odds ratios
 exp(coef(mylogit))
 ```
+## Results 
+<iframe src="/office_choice.html" width="600" height="400"></iframe>
+
+
+
 ## Interpretation of Results
 
 ### Coefficient Estimates
