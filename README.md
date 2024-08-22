@@ -43,15 +43,6 @@ You can view the detailed HTML results page for this project [here](/office_choi
 
 <head>
 
-<meta charset="utf-8" />
-<meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
-
-
-<meta name="author" content="Tirus Wagacha" />
-
-<meta name="date" content="2024-05-10" />
-
 <title>Office Choice</title>
 
 
