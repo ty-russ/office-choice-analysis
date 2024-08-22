@@ -36,9 +36,7 @@ summary(mylogit)
 exp(coef(mylogit))
 ```
 ## Results 
-<iframe src="/office_choice.html" width="600" height="400"></iframe>
-
-
+You can view the detailed HTML results page for this project [here](/office_choice.html).
 
 ## Interpretation of Results
 
