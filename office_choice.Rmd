@@ -1,0 +1,76 @@
+---
+title: "Office Choice"
+author: "Tirus Wagacha"
+date: "2024-05-10"
+output:
+  html_document: default
+  word_document: default
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+mydata <- read.csv("OfficeChoice2.csv")
+```
+
+```{r}
+head(mydata)
+```
+
+
+```{r}
+names(mydata)
+```
+
+```{r}
+summary(mydata)
+```
+
+```{r}
+sapply(mydata, sd)
+```
+
+```{r}
+mylogit <- glm(Choice ~ Expensive + Convenient + Service + Largechoice, data = mydata, family = "binomial")
+```
+
+```{r}
+summary(mylogit)
+```
+```{r}
+## odds ratios only
+exp(coef(mylogit))
+```
+
+# SUMMARY
+
+## Variables of Office Choice in the market 
+1. PastPurchases – excluded in analysis due to zero values
+2. Expensive 
+3. Convinient 
+4. Service 
+5. Large Choice
+
+## Interpreting Results of Coeffiecient Estimates(or Using Odds ratio)
+-
+The Intercept is -0.19797, this is the log odds of making a choice when all variables are zero. 
+•	The coefficient estimate for Expensive is -0.28365, indicating that a one-unit increase in Expensive leads to an decrease of approximately 0.28365 in the log odds of choice. 
+•	The coefficient estimate for Convinient is 0.11877, indicating that a one-unit increase in Convinience leads to an increase of approximately 0.11877 in the log odds of choice.
+•	The coefficient estimate for Service is 0.23079, indicating that a one-unit increase in Service leads to an increase of approximately 0.23079 in the log odds of choice. 
+•	The coefficient estimate for Large Choice is -0.02011, indicating that a one-unit increase in warranty leads to a decrease of approximately 0.0201 in the log odds of choice.
+
+## Intepreting the Odds ratios 
+•	For Expensive, the odds ratio of 0.7530339 suggests that for a one-unit increase in Expensive, the odds of the choice happening decrease by a factor of 0.7530339.
+•	For Convenience, the odds ratio of 1.1261151 suggests that for a one-unit increase in Convenience, the odds of the choice happening increase by a factor of 1.1261151.
+•	For Service, the odds ratio of 1.2595989 suggests that for a one-unit increase in Service, the odds of the choice happening increase by a factor of 1.2595989.
+•	For LargeChoice, the odds ratio of 0.9800928 suggests that for a one-unit increase in LargeChoice, the odds of the choice happening decrease by a factor of 0.9800928.
+
+## Most important for choice for OfficeStar: 
+Based on the results, the drivers of choice in this market for OfficeStar are Convinience and Service if we consider the variables with the highest odds ratios with approximately 1.13 and 1.25 respectively.
+
+
+
