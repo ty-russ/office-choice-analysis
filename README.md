@@ -16,7 +16,7 @@ The dataset includes the following variables:
 
 ## Analysis and Methodology
 
-The analysis was performed using a binary logit model with the following R code:[binary logit analysis]("/b")
+The analysis was performed using a binary logit model with the following R code:[binary logistic model]("/binary_logistic_reg_OfficeStar.R")
 
 ```r
 mydata <- read.csv("OfficeChoice2.csv")
