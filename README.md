@@ -125,63 +125,7 @@ exp(coef(mylogit))</code></pre>
 <pre><code>## (Intercept)   Expensive  Convenient     Service Largechoice 
 ##   0.8203975   0.7530339   1.1261151   1.2595989   0.9800928</code></pre>
 <div id="summary" class="section level2">
-<h2>Summary</h2>
-<div id="variables-of-office-choice-in-the-market" class="section level3">
-<h3>Variables of Office Choice in the Market</h3>
-<ol style="list-style-type: decimal">
-<li><strong>PastPurchases</strong> – Excluded in analysis due to zero
-values</li>
-<li><strong>Expensive</strong></li>
-<li><strong>Convenient</strong></li>
-<li><strong>Service</strong></li>
-<li><strong>Large Choice</strong></li>
-</ol>
-</div>
-<div id="interpreting-results-of-coefficient-estimates-or-using-odds-ratios" class="section level3">
-<h3>Interpreting Results of Coefficient Estimates (or Using Odds
-Ratios)</h3>
-<ul>
-<li>The Intercept is -0.19797, which represents the log odds of making a
-choice when all variables are zero.</li>
-<li>The coefficient estimate for <strong>Expensive</strong> is -0.28365,
-indicating that a one-unit increase in Expensive leads to a decrease of
-approximately 0.28365 in the log odds of choice.</li>
-<li>The coefficient estimate for <strong>Convenient</strong> is 0.11877,
-indicating that a one-unit increase in Convenience leads to an increase
-of approximately 0.11877 in the log odds of choice.</li>
-<li>The coefficient estimate for <strong>Service</strong> is 0.23079,
-indicating that a one-unit increase in Service leads to an increase of
-approximately 0.23079 in the log odds of choice.</li>
-<li>The coefficient estimate for <strong>Large Choice</strong> is
--0.02011, indicating that a one-unit increase in Large Choice leads to a
-decrease of approximately 0.02011 in the log odds of choice.</li>
-</ul>
-</div>
-<div id="interpreting-the-odds-ratios" class="section level3">
-<h3>Interpreting the Odds Ratios</h3>
-<ul>
-<li>For <strong>Expensive</strong>, the odds ratio of 0.753 suggests
-that for a one-unit increase in Expensive, the odds of the choice
-happening decrease by a factor of 0.753.</li>
-<li>For <strong>Convenient</strong>, the odds ratio of 1.126 suggests
-that for a one-unit increase in Convenience, the odds of the choice
-happening increase by a factor of 1.126.</li>
-<li>For <strong>Service</strong>, the odds ratio of 1.260 suggests that
-for a one-unit increase in Service, the odds of the choice happening
-increase by a factor of 1.260.</li>
-<li>For <strong>Large Choice</strong>, the odds ratio of 0.980 suggests
-that for a one-unit increase in Large Choice, the odds of the choice
-happening decrease by a factor of 0.980.</li>
-</ul>
-</div>
-<div id="most-important-factors-for-choice-of-office-star" class="section level3">
-<h3>Most Important Factors for Choice of Office Star</h3>
-<p>Based on the results, the drivers of choice in this market for Office
-Star are <strong>Convenience</strong> and <strong>Service</strong>, with
-the highest odds ratios of approximately 1.13 and 1.25,
-respectively.</p>
-</div>
-</div>
+
 
 
 
@@ -196,6 +140,13 @@ respectively.</p>
 
 
 ## Interpretation of Results
+
+### Variables of Office Choice in the Market
+1. **PastPurchases** – Excluded in analysis due to zero values
+2. **Expensive**
+3. **Convenient**
+4. **Service**
+5. **Large Choice**
 
 ### Coefficient Estimates
 
