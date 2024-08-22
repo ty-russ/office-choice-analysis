@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-This project was completed as part of my Marketing Analytics course. The objective was to analyze the factors influencing the choice of "Office Star" using a binary logit model. The dataset used for this analysis was `OfficeChoice2.csv`, which includes various attributes like Expensive, Convenient, Service, and Large Choices that could impact the decision.
+This project was completed as part of my Marketing Analytics course. The objective was to analyze the factors influencing the choice of "Office Star" using a binary logit model. The dataset used for this analysis was [OfficeChoiceData](`/OfficeChoice2.csv`), which includes various attributes like Expensive, Convenient, Service, and Large Choices that could impact the decision.
 
 ## Data Description
 
@@ -16,7 +16,7 @@ The dataset includes the following variables:
 
 ## Analysis and Methodology
 
-The analysis was performed using a binary logit model with the following R code:
+The analysis was performed using a binary logit model with the following R code:[binary logit analysis]("/b")
 
 ```r
 mydata <- read.csv("OfficeChoice2.csv")
