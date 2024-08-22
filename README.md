@@ -137,6 +137,7 @@ exp(coef(mylogit))</code></pre>
 <!-- code folding -->
 </body>
 </html>
+
 You can view the detailed HTML results page for this project [here](/office_choice.html).
 
 ## Interpretation of Results
