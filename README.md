@@ -60,8 +60,6 @@ exp(coef(mylogit))
 
 
 <h1 class="title toc-ignore">Office Choice</h1>
-<h4 class="author">Tirus Wagacha</h4>
-<h4 class="date">2024-05-10</h4>
 
 </div>
 
